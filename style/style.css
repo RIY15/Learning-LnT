@@ -1,0 +1,70 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  #f59c7c;
+    width: 100%; /* mengambil dari ukuran parent*/
+    height: 100vw; /* mengambil dari ukuran layar screen browser */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #41487c;
+    border: none;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #484848;
+}
+
+.container .display {
+    color: whitesmoke;
+    background: none;
+    border: none;
+    text-align: end;
+    height: 7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+section {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .number, .operator , .reset {
+    
+} */
+
+.number , .operator,  .reset {
+    border: none;
+    border-radius: 50px;
+    height: 3.5rem;
+    width: 3.5rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px white;
+    font-weight: 500;
+}
+
+.number {
+    color: white;
+    background: none;
+}
+
+.reset {
+    color: #f97a43;
+}
+
+.operator {
+    background: #f97a43;
+    color: white;
+}
+
+
+
+
